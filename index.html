@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1 inert>Prayer times</h1>
+        <div id="select-div">
+            <select name="country" id="select-countries">
+                <option value="default" disabled selected></option>
+            </select>
+            <select name="state" id="select-states">
+                <option value="default" disabled selected></option>
+            </select>
+            <select name="city" id="select-cities">
+                <option value="default" disabled selected></option>
+            </select>
+        </div>
+        <div id="language-div">
+            <select name="" id="select-language">
+                <option value="rus">Рус</option>
+                <option value="kaz">Қаз</option>
+            </select>
+        </div>
+    </header>
+    <div id="times">
+        <div id="cityname-div"><span id="cityname"></span><span id="time"></span></div>
+        <table>
+            <thead>
+                <tr id="captions">
+                    <td id="num">№</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td id="count">1</td>
+                    <td id="bamdat"></td>
+                    <td id="kun"></td>
+                    <td id="besin"></td>
+                    <td id="ekinti"></td>
+                    <td id="aqsham"></td>
+                    <td id="quptan"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
